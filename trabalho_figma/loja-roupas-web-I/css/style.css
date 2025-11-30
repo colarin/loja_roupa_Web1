@@ -1,0 +1,368 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: white;
+}
+
+header {
+    display: flex;
+    padding: 25px;
+    align-items: center;
+    border-bottom: 6px solid;
+    border-image: linear-gradient(to right, #FF0000, #990000) 1;
+    background-color: black;
+}
+
+.nomeLoja {
+    display: flex;
+    justify-content: center;
+    align-items:end;
+}
+
+.jw {
+    font-size: 30px;
+    color: white;
+    font-weight: bolder;
+}
+
+.sports {
+    color: #FF0000;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.navegacao {
+    display: flex;
+    justify-content: center;
+    width: 82%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    gap: 15px;
+    width: 40%;
+    flex-wrap: wrap;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    transition: ease 0.3s;
+}
+
+a:hover {
+    color: #ff8888; 
+}
+.inicioLinkIndex {
+    color: #FF0000;
+}
+
+.navTelaTime .produtosLink {
+    color: #FF0000;
+}
+
+
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.primeiroMain {
+    display: flex;
+    min-height: 450px;
+    max-height: 750px;
+    justify-content: space-evenly;
+
+    flex-wrap: wrap;
+    background: linear-gradient(to right, black, #FF0000);
+}
+
+.primeiraParte {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    gap: 35px;
+}
+
+.titulo {
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h1  {
+    font-size: 55px;
+}
+
+.confira {
+    text-align: center;
+    background-color: #B10000;
+    width: auto;
+    padding: 20px;
+    border-radius: 40px;
+    font-size: 30px;
+    transition: ease 0.5s;
+}
+
+.confira:hover {
+    scale: 1.1;
+    background-color: #ff0000;
+    box-shadow: 0px 5px 10px 1px black;
+}
+
+.segundaParte {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+}
+
+.camisaCeFl {
+    width: auto;
+    min-width: 250px;
+}
+
+.segundoMain {
+    display: flex;
+    flex-direction: column;
+}
+
+.logosTimes {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    flex-wrap: wrap;
+    background-color: #D8D7D7;
+}
+
+.logoTime {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: 4px solid;
+    border-color: #990000;
+    border-radius: 100px;
+    transition: ease 0.1s;
+}
+
+.logoTime:hover {
+    scale: 1.1;
+    box-shadow: 0px 5px 10px 1px rgb(22, 22, 22);
+}
+
+.imgTime {
+    width: 90px;
+}
+
+.camisasDestaques {
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+    padding: 15px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.camisaDestaque {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-color: #D9D9D9;
+    gap: 15px;
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
+    max-height: 500px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 10px 0.5px rgb(117, 116, 116);
+    transition: ease 0.5s;
+}
+
+.camisaDestaque:hover {
+    transform: translateY(-5px);
+}
+
+.camisa1 {
+    width: 180px;
+}
+
+.camisa {
+    height: auto;
+}
+
+
+.popular {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-width: 100px;
+    width: 100px;
+    max-height: 50px;
+    border-radius: 15px;
+    background-color: #990000;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.descricaoCamisa {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-direction: column;
+    height: auto;
+}
+
+.descricao {
+    font-weight: bold;
+    max-width: 250px;
+    font-size: 22px;
+    color: black;
+}
+
+.preco {
+    font-weight: bold;
+    font-size: 30px;
+    color: #187601;
+}
+
+.parcelado {
+    font-size: 15px;
+    display: flex;
+    gap: 5px;
+    font-weight: bolder;
+}
+
+.meses {
+    color: black;
+}
+
+.valor {
+    color: #FF0000;
+}
+
+
+.mainDetalhes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    min-height: 850px;
+    padding-top: 15px;
+    background-color: #E9E9E9;
+}
+
+.imagem {
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px 0.5px rgb(117, 116, 116);
+    background-color: white;
+    transition: ease 0.5s;
+    width: auto;
+    min-width: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem:hover {
+    transform: translateY(-15px);
+}
+
+.imagemCamisaCE {
+    width: 90%;
+}
+
+.geral {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.conteudoCamisa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.conteudoPrincipalCamisa {
+    width: 50%;
+
+}
+
+.tituloCamisa {
+    font-size: 40px;
+}
+
+.tamanhos {
+    font-size: 15px;
+}
+
+.conteudoPrecoCamisa {
+    width: 50%;
+}
+
+.precoCamisa {
+    font-weight: bolder;
+    font-size: 30px;
+    color: #187601;
+}
+
+.parcelada {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: bolder;
+}
+.valorP {
+    color: #FF0000;
+}
+.card {
+    width: 20px;
+}
+
+.botaoComprar {
+    width: 50%;
+}
+
+.comprar {
+    text-align: center;
+    background-color: #B10000;
+    width: auto;
+    height: auto;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 20px;
+    transition: ease 0.3s;
+}
+
+.comprar:hover {
+    scale: 1.1;
+    background-color: #ff0000;
+    box-shadow: 0px 5px 10px 1px rgb(97, 97, 97);
+}
+
+.informacoesGeraisProduto {
+    width: 50%;
+    font-weight: bolder;
+}
